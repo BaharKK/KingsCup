@@ -1,0 +1,122 @@
+/*#gameboard { 
+  background: url(/stylesheets/images/poker_table.jpg) 50% 50%;
+  background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    margin-bottom: 50px;
+    display: inline-block;
+    vertical-align: middle;
+    margin: auto;
+}*/
+#gameboard { 
+  background: url(/stylesheets/images/poker_table.jpg) 50% 50%;
+  background-size: cover;
+    width: 100%;
+    max-width: 1024px;
+    position: fixed;
+    top:130px;
+}
+
+.row li {
+  float: left;
+    width: 25%;
+    margin-bottom: 25px;
+}
+header {
+  top: 70px;
+}
+.row #middle-row { 
+  float: center;
+  width: 50%;
+  margin-left: 30%;
+  margin-bottom: 20px;
+}
+img .avatar {
+  border: 0 none;
+  display: inline-block;
+  max-height: 60%;
+  max-width: 30%;
+  vertical-align: middle;
+  margin: auto;
+}
+#avatar {
+  height: 100px;
+  width: 100px;
+}
+
+/*footer {
+  background: url(/images/footer.png) no-repeat;
+  background-size: cover;
+ position: fixed;
+ bottom: 1px;
+ right: 0px;
+ left: 0px;
+ height: 65px;
+ max-height: 100px;
+ background-color: rgba(0, 0, 0, 0.5);
+ padding-top: 30;
+ opacity: 0.50;
+
+}*/
+div.well.rules {
+    font-color: #0000EE;
+  position: fixed;
+  left: 240px;
+  right: 100px;
+  top: 10px;
+  background-color:rgba(0, 0, 0, 0.5)
+}
+div.well.rule {
+    font-color: #0000EE;
+  position: fixed;
+  left: 220px;
+  right: 200px;
+  top: 10px;
+  opacity: 1;
+  max-height: 100px;
+  max-width: 600px;
+}
+.rule p {
+color: #38c0f4;
+max-height: 300px;
+
+}
+#avatar.current {
+  background-color: blue;
+}
+strong {
+  color: #45DD49 ;
+}
+button.card_picker
+{
+  background: transparent;
+  border: 0;
+}
+#foo{
+  overflow: scroll;
+  background: black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  top: 130px;
+  width: 250px;
+  border: 1 solid;
+  opacity:.50;
+  color: white;
+   z-index: 100;
+}
+
+form #names {
+  padding: 300 300 300 100;
+}
+/*/*<-- Bahar's style -->*/
+
+h1 {
+  font-size: 5.9vw;
+}
+h2 {
+  font-size: 3.0vh;
+}
+p {
+  font-size: 2vmin;
+}
